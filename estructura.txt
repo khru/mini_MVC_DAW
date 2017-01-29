@@ -1,0 +1,18 @@
+ *carpeta application*
+	contiene todos los archivos de la aplicación, todos con extensión php, están ahi no se deben poder acceder desde el navegador directamente a ellos
+
+    - config: tiene los archivos de configuración y variables globales o de entorno, 
+        +  ahora mismo tiene la variable de entorno que dice si está en produción o no lo está.
+        + Dominio, es la IP del servidor.
+        + Protocolo, es http://
+        + Tipo de base de datos "mysql"
+        + Usuario de la BD
+        + Contraseña de la BD
+    - controller: aqui se encuentran los controladores "hijos"
+    - core: Controladores padre
+    - libs: librerias locales
+    - model: modelos de aceso a la base de datos
+        + Los modelos no suelen tener atributos como si, pero sí creados al vuelo.
+    - view: como se ven los los modelos o la presentación de los datos.
+    - vendor: librerias externas
+
